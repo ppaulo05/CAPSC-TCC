@@ -1,0 +1,29 @@
+version: '3.1'
+services:
+  db:
+    image: postgres:latest
+    container_name: postgres-nodejs-app
+    restart: always
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: nodejs_login_db
+    ports:
+      - 5432:5432
+    volumes:
+      - ./server/init.sql:/docker-entrypoint-initdb.d/init.sql
+
+  server:
+    build: ./server
+    restart: always
+    ports:
+      - "3001:3001"
+    environment:
+      DB_HOST: db
+    depends_on:
+      - db
+
+  client:
+    build: ./client
+    ports:
+      - "3000:80"

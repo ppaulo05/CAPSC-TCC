@@ -1,0 +1,14 @@
+{
+    "cpf": "14369128650",
+    "respostas": [
+        {"A":true,"B":false,"C":false,"D":false,"E":false},
+        {"A":false,"B":true,"C":false,"D":false,"E":false},
+        {"A":false,"B":false,"C":true,"D":false,"E":false},
+        {"A":false,"B":false,"C":false,"D":true,"E":false},
+        {"A":false,"B":false,"C":false,"D":false,"E":true},
+        {"A":false,"B":false,"C":false,"D":true,"E":false},
+        {"A":false,"B":false,"C":true,"D":false,"E":false},
+        {"A":false,"B":true,"C":false,"D":false,"E":false},
+        {"A":true,"B":false,"C":false,"D":false,"E":false},
+        {"A":false,"B":true,"C":false,"D":false,"E":false}]
+}

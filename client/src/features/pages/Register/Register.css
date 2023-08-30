@@ -1,0 +1,128 @@
+.Register {
+  background-color: #2d51bf;
+  height: 100vh;
+}
+
+.register-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f1ebeb;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 600px;
+  gap: 20px;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+h1 {
+  color: #7f7f7f;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+input {
+  width: 448px;
+  height: 54px;
+  left: 496px;
+  top: 551px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  margin-bottom: 24px;
+  outline: none;
+  padding-left: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+input.email {
+  width: 100%;
+}
+
+input::placeholder {
+  color: #c6c3c3;
+}
+
+.form-error {
+  color: #ff0000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 20px; /* Adjust this value according to your needs */
+}
+
+.form-success {
+  color: #247f00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  height: 20px; /* Adjust this value according to your needs */
+}
+
+input.email {
+  width: 135vh;
+}
+
+button {
+  color: #fbea38;
+  background-color: #2d51bf;
+  border-radius: 10px;
+  width: 222px;
+  height: 52px;
+  border: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: #1e3eaf;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.register-link {
+  display: flex;
+  justify-content: center;
+}
+
+.register-link a {
+  width: 177px;
+  height: 28px;
+  left: 632px;
+  top: 743px;
+
+  margin-top: 44px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-size: 23px;
+  line-height: 28px;
+
+  display: flex;
+  align-items: center;
+  text-decoration-line: underline;
+
+  color: #2d51bf;
+}
+
+.logo-cimol {
+  height: 130px;
+  margin-bottom: 40px;
+}

@@ -1,0 +1,29 @@
+.GeneratedAnswerKey {
+  height: 100vh;
+  padding-bottom: 50px;
+}
+
+.link-container {
+  box-sizing: border-box;
+
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  margin-left: 25px;
+  padding-top: 5px;
+  background: #fcfbfb;
+  border: 1px solid #000000;
+  border-radius: 10px;
+}
+.link-container a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.link-container a:visited {
+  color: inherit;
+}
+
+.link-container a:hover {
+  text-decoration: none;
+}
